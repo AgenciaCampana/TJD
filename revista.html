@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>TJD - Tribunal de Justiça Deportiva do Futebol do Rj</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Estilos -->
+			<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+			<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-datepicker.min.css">
+			<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+			<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+			<link rel="stylesheet" href="css/style.css">
+			<link rel="stylesheet" href="css/interna.css">
+		<!-- Script -->
+			<script src="bower_components/jquery/dist/jquery.min.js"></script>
+			<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+			<script src="bower_components/bootstrap/dist/js/bootstrap-datepicker.min.js"></script>
+			<script src="bower_components/bootstrap/dist/js/bootstrap-datepicker.pt-BR.min.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid menu-fundo">
+			<div class="container">
+				<div class="col-md-12">
+					<div class="row">
+						<nav class="collapse navbar-collapse menu">
+							<ul class="nav navbar-nav">
+								<li class="item-menu primary"><a href="index.html" class="text-uppercase link-menu active-menu">Início</a></li>
+								<li class="item-menu"><a href="institucional.html" class="text-uppercase link-menu">Institucional</a></li>
+								<li class="item-menu"><a href="comunicacoes.html" class="text-uppercase link-menu">Comunicações</a></li>
+								<li class="item-menu"><a href="jurisprudencia.html" class="text-uppercase link-menu">Jurisprudência</a></li>
+								<li class="item-menu"><a href="legislacao.html" class="text-uppercase link-menu">Legislação</a></li>
+								<li class="item-menu"><a href="pautas.html" class="text-uppercase link-menu">Pautas</a></li>
+								<li class="item-menu"><a href="revista.html" class="text-uppercase link-menu">Revista</a></li>
+								<li class="item-menu"><a href="noticias.html" class="text-uppercase link-menu">Notícias</a></li>
+								<li class="item-menu"><a href="contato.html" class="text-uppercase link-menu">Contato</a></li>
+							</ul>
+							<ul class="nav navbar-nav navbar-right social">
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<header class="container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-1 logo">
+						<h1><img src="img/logo.svg" class="img-responsive" alt=""></h1>
+					</div>
+					<div class="col-md-8">
+						<div class="logo-text">
+							<h2 class="text-uppercase">Tribunal de Justiça Desportiva <br>do Futebol Estado do Rio de Janeiro </h2>
+						</div>	
+					</div>
+					<div class="col-md-3 pesquisa">
+						<form class="navbar-form navbar-right" role="search">
+						  <div class="form-group">
+						    <input type="text" class="form-control">
+						  </div>
+						  <button type="submit" class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="container-fluid bg-title-page" style="background-image: url(img/institucional.jpg);">
+				<div class="container title-page">
+					<h1 class="text-uppercase">Notícias</h1>
+				</div>
+			</div>
+			<section class="content-pagei container">
+				<div class="menu-inst col-lg-3">
+					<ul class="list-unstyled">
+						<li><a href="#" class="text-uppercase active-menu-isnt"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Todas</a></li>
+						<li><a href="#" class="text-uppercase"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Despacho</a></li>
+						<li><a href="#" class="text-uppercase"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Decisão</a></li>
+						<li><a href="#" class="text-uppercase"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Citação</a></li>
+						<li><a href="#" class="text-uppercase"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Juntada</a></li>
+						<li><a href="#" class="text-uppercase"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Intimação</a></li>
+						<li><a href="#" class="text-uppercase"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Ato</a></li>
+					</ul>			
+				</div>
+				<section class="composicao col-lg-offset-1 col-lg-8">
+					<dl>
+						<dt class="text-uppercase">Despacho</dt>
+					</dl>
+					<form class="form-inline pesquisa-pdf">
+						<div class="row">
+							<div class="form-group col-md-7">
+								<label for="titulo" class="text-uppercase">Título</label>
+								<input type="text" class="form-control" name="titulo">
+							</div>
+							<div class="form-group col-md-5">
+								<label for="data" class="text-uppercase">Data</label>
+								<input type="text" class="form-control" name="data">
+								<i class="fa fa-calendar" aria-hidden="true" id="data"></i>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 buttons-pesquisa">
+								<input type="submit" name="Enviar" value="Enviar">
+								<input type="reset" name="limpar" value="Limpar">
+							</div>
+						</div>
+					</form>
+					<article class="listagem-pdf">
+						<div class="row">
+							<dl>
+								<div class="icon-list col-lg-1"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></div>
+								<div class="text-list col-lg-10">
+								<dd>01/03/2017</dd>	
+								<a href=""><dt>Comunicação 040/2017 - Despacho</dt></a>
+							</dl>
+						</div>
+						<div class="row">
+							<dl>
+								<div class="icon-list col-lg-1"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></div>
+								<div class="text-list col-lg-10">
+								<dd>01/03/2017</dd>	
+								<a href=""><dt>Comunicação 040/2017 - Despacho</dt></a>
+							</dl>
+						</div>
+						<div class="row">
+							<dl>
+								<div class="icon-list col-lg-1"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></div>
+								<div class="text-list col-lg-10">
+								<dd>01/03/2017</dd>	
+								<a href=""><dt>Comunicação 040/2017 - Despacho</dt></a>
+							</dl>
+						</div>
+						<div class="row">
+							<dl>
+								<div class="icon-list col-lg-1"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></div>
+								<div class="text-list col-lg-10">
+								<dd>01/03/2017</dd>	
+								<a href=""><dt>Comunicação 040/2017 - Despacho</dt></a>
+							</dl>
+						</div>
+						<nav  class="paginacao">
+							<ul class="pagination">
+								<li class="primeiro text-uppercase"><a href="#">Primeiro <span class="sr-only">(current)</span></a></li>
+									<li class="arrow text-uppercase"><a href="#"><a href=""><i class="fa fa-chevron-left" aria-hidden="true"></i><span class="sr-only">(current)</span></a></li>
+										<li class="pag-number text-uppercase"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+										<li class="pag-number text-uppercase"><a href="#">2 <span class="sr-only">(current)</span></a></li>
+										<li class="pag-number text-uppercase"><a href="#">3 <span class="sr-only">(current)</span></a></li>
+									<li class="arrow text-uppercase"><a href="#"><a href=""><i class="fa fa-chevron-right" aria-hidden="true"></i><span class="sr-only">(current)</span></a></li>
+								<li class="ultimo text-uppercase"><a href="#">Último <span class="sr-only">(current)</span></a></li>
+							</ul>
+						</nav>
+					</article>
+				</section>
+			</section>
+		</main>
+		<footer>
+			
+		</footer>
+	</body>
+	<script>
+	  $(document).ready(function () {
+	    $('#data').datepicker({
+	        format: "d/mm/yy",
+	        language: "pt-BR"
+	    });
+	  });
+	</script>
+</html>
