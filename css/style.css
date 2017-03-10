@@ -1,0 +1,202 @@
+/* Fontes */
+
+@font-face {
+    font-family: 'optimabold2';
+    src: url('../bower_components/fonts/optima-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'optimanormal';
+    src: url('../bower_components/fonts/optima-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	background-color: #f9f5f2;
+	border-top: 2px solid #4f1111;
+}
+
+header{
+	padding: 20px 0px ;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+/* Menu */
+	.menu{
+		border-bottom: 1px solid;
+    	padding-bottom: 15px !important; 
+	}	
+
+		.nav>li>a{
+			font-family: 'optimabold2';
+			color: #4f1c18;
+		}
+
+		.nav>li>a:focus, .nav>li>a:hover{
+			background-color: transparent;
+		}
+
+/*		.link-menu:hover, .active{
+			border-bottom: 3px solid #000;
+			box-sizing: border-box;
+		}*/
+
+		.navbar-form input {
+			border-radius: 0px;
+			height: 30px;
+			border: none;
+			padding-right: 36px;
+		}
+
+		.navbar-form button{
+			border-radius: 0px;
+			border: none;
+			background-color: transparent;
+			position: absolute;
+			top: 25px;;
+			right: 15px;
+		}
+		
+		.social li{
+			padding: 15px 10px;
+		}
+
+		.social li>a{
+			padding: 0px;
+			font-size: 16px;
+		}
+
+/* Header */ 
+
+	.logo-text{
+		padding: 20px 0px;
+	}
+
+	.logo-text h2{
+		font-family: 'optimabold2';
+		font-size: 28px;
+		color: #4f1c18;
+	}
+
+/* Content */
+	.title-content{
+		border-bottom: 1px solid #4f1111;
+	}
+
+		.title-content h3{
+			font-family: 'optimabold2';
+			font-size: 28px;
+			color: #4f1c18;
+			margin-bottom: 5px;
+		}
+
+	.slide-content{
+		margin-top: 12px;
+	}
+
+		.slide-foto{
+			display: block;
+			max-width: 100%;
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			height: 300px;
+		}
+
+	
+	.noticia{
+		padding: 30px 0px;
+		border-bottom: 1px solid #4f1111;
+	}
+		.media-body{
+			padding-left: 30px;
+			padding-top: 15px;
+			font-size: 16px;
+			font-family: 'Open Sans', sans-serif;
+		}
+			.media-body h4{
+				font-weight: 700;
+				color: #4f1111;
+				font-size: 20px;
+				margin-bottom: 15px;
+			}
+
+			.media-body p{
+				font-family: 'Open Sans', sans-serif;
+				color: #4f1111;
+				font-size: 16px;
+			}
+
+			.date-button{
+			    margin-top: 20px;
+			}	
+				.date-button span{
+					color: #4f1111;
+					font-size: 12px;
+				}
+
+				.date-button button{
+					color: #fff;
+					float: right;
+					background-color: #4f1111;
+					border: none;
+					padding: 1% 2%;
+					font-weight: 300;
+					font-size: 16px;
+
+				}
+
+				.date-button button:hover{
+					background-color: #fff;
+					color: #4f1111;;
+				}
+
+				.date-button button:focus{
+					box-shadow: 0 0 0 0;
+					border: 0 none;
+					outline: 0;
+				}
+	
+	.pesquisa{
+		height: 110px;
+	}
+
+	.pesquisa form{
+    	margin-top: 25px;
+	}
+
+/* Aside */
+	.listagem ul>li:before{
+		content: "\f105";
+		display: inline-block;
+	    font: normal normal normal 14px/1 FontAwesome;
+	    font-size: inherit;
+	    text-rendering: auto;
+	    -webkit-font-smoothing: antialiased;
+	}
+
+}

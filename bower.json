@@ -1,0 +1,18 @@
+{
+  "name": "tjd",
+  "authors": [
+    "Agência Campana"
+  ],
+  "description": "Tribunal de Justiça Deportiva",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
