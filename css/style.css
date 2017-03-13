@@ -30,25 +30,6 @@ body{
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { ... }
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-	
-
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-
-/* Menu */
-
 	.menu-fundo{
 		background-color: #b8af9c;
 	}
@@ -265,13 +246,381 @@ body{
 				outline: 0;
 			}
 
-/*	.listagem ul>li:before{
-		content: "\f105";
-		display: inline-block;
-	    font: normal normal normal 14px/1 FontAwesome;
-	    font-size: inherit;
-	    text-rendering: auto;
-	    -webkit-font-smoothing: antialiased;
-	}*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+@media (max-width: 992px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.navbar-brand>img{
+		width: 50px;
+		height: 50px;
+	}
+
+	.navbar-toggle{
+		float: left;
+	}
+
+	.navbar-toggle i{
+		font-size: 18px;
+		color: #4f1c18;
+	}
+	
+	.form-mobile{
+		float: right;
+		width: 40%;
+	}
+
+	.form-mobile > .form-group{
+		margin-bottom: 0px;
+		padding: 9px 30px;
+	}
+	
+	.form-mobile input, .form-mobile button{
+		border:none;
+		border-radius: 0px;
+	}
+	
+	.form-mobile button{
+		position: absolute;
+		top: 10px;
+		right: 0px;
+	}
+
+	.link-menu:hover{
+		border: none;
+	}
+
+	.pesquisa{
+		display: none;
+	}
+
+	.logo-text h2{
+    	font-size: 28px;
+    	margin-top: 65px;
+
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.navbar-header,
+	.navbar-brand>img{
+		display:none;
+	}
+	.menu-content{
+		width: 100%;
+		padding:0px;
+	}
+	
+		.menu .nav>li{
+			padding-top: 12px;
+			padding-right: 5px;
+			padding-left: 10px;
+			padding-bottom: 0px;
+		}
+/* Header */
+
+	header{
+		border-bottom: 1px solid #4f1111;	
+	}
+
+	.logo h1{
+		margin-bottom: 18px;
+	}
+
+	.logo-text h2{
+		font-family: 'optimabold2';
+		font-size: 22px;
+		color: #4f1c18;
+		line-height: 30px;
+		margin-top: 27px;
+	}
+
+
+	.navbar-form button{
+		top: 50%;
+		right: 15px;
+	}
+
+	.pesquisa{
+		display: block;
+	}
+
+	.form-mobile{
+		display: none;
+	}
+/* Content */
+
+	.title-content h3{
+		font-size: 25px;
+	}
+
+/* Aside */
+
+	.listagem dt{
+		font-size: 14px;
+	}
+
+	.listagem button{
+    	left: 50%;
+	}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+/* Menu */
+	.menu-fundo{
+		background-color: #b8af9c;
+	}
+
+		.menu{
+		}	
+			.menu .nav>li{
+				padding-top: 12px;
+				padding-right: 15px;
+				padding-left: 15px;
+				padding-bottom: 0px;
+			}
+
+			.menu .nav>li>a{
+				font-family: 'optimabold2';
+				color: #4f1c18;
+				padding: 0px; 
+				padding-bottom: 10px !important;
+			}
+
+			.menu .nav>li>a:focus, .nav>li>a:hover{
+				background-color: transparent;
+			}
+
+			.link-menu:hover, .active-menu{
+				border-bottom: 1px solid #4f1c18;
+			}
+			
+			.social li{
+				padding: 15px 10px;
+			}
+
+			.social li>a{
+				padding: 0px;
+				font-size: 16px;
+			}
+
+/* Header */
+
+	header{
+		border-bottom: 1px solid #4f1111;	
+	}
+
+	.logo h1{
+		margin-bottom: 18px;
+	}
+
+	.logo-text h2{
+		font-family: 'optimabold2';
+		font-size: 28px;
+		color: #4f1c18;
+		line-height: 40px;
+		margin-top: 30px;
+	}
+
+
+	.navbar-form input {
+		border-radius: 0px;
+		height: 30px;
+		border: none;
+		padding-right: 36px;
+	}
+
+	.navbar-form button{
+		border-radius: 0px;
+		border: none;
+		background-color: transparent;
+		position: absolute;
+		top: 63%;
+		right: 15px;
+	}
+
+/* Content */
+
+	.content-prin{
+		padding-top: 30px;
+	}
+		.title-content{
+			border-bottom: 1px solid #4f1111;
+		}
+
+			.title-content h3{
+				font-family: 'optimaregular';
+				font-size: 28px;
+				color: #4f1c18;
+				margin-bottom: 5px;
+			}
+
+		.slide-content{
+			margin-top: 12px;
+		}
+
+			.slide-foto{
+				display: block;
+				max-width: 100%;
+				background-position: center;
+				background-size: cover;
+				background-repeat: no-repeat;
+				height: 300px;
+			}
+
+		
+		.noticia{
+			padding: 30px 0px;
+			border-bottom: 1px dashed #4f1111;
+		}
+			.media-body{
+				padding-left: 30px;
+				padding-top: 15px;
+				font-size: 16px;
+				font-family: 'Open Sans', sans-serif;
+			}
+				.media-body h4{
+					font-weight: 700;
+					color: #4f1111;
+					font-size: 20px;
+					margin-bottom: 15px;
+				}
+
+				.media-body p{
+					font-family: 'Open Sans', sans-serif;
+					color: #4f1111;
+					font-size: 16px;
+				}
+
+				.date-button{
+				    margin-top: 20px;
+				}	
+					.date-button span{
+						color: #4f1111;
+						font-size: 12px;
+					}
+
+					.date-button button{
+						color: #fff;
+						float: right;
+						background-color: #4f1111;
+						border: none;
+						padding: 1% 2%;
+						font-weight: 300;
+						font-size: 16px;
+
+					}
+
+					.date-button button:hover{
+						background-color: #fff;
+						color: #4f1111;
+					}
+
+					.date-button button:focus{
+						box-shadow: 0 0 0 0;
+						border: 0 none;
+						outline: 0;
+					}
+		
+		.pesquisa{
+			height: 110px;
+		}
+
+		.pesquisa form{
+	    	margin-top: 26%;;
+		}
+
+/* Aside */
+	.listagem{
+		width: 100%;
+		height: auto;
+		background-color: #fff;
+		padding: 20px;
+		margin-top: 12px;
+	}
+			
+		.listagem dt{
+			font-size: 16px;
+			font-family: 'Open Sans', sans-serif;
+			color: #4f1111;
+			line-height: 25px;
+			font-weight: 300;
+		}
+
+		.listagem dd{
+			font-size: 12px;
+			margin-top: 10px;
+		}
+		
+		.icon-list i{
+			color:#d5d5d4;
+			font-size: 25px;
+		}
+
+		.text-list{
+			margin-bottom: 30px;
+		}
+
+
+		.listagem button{
+			position: relative;
+			left: 64%;
+			color: #fff;
+			background-color: #4f1111;
+			border: none;
+			padding: 2% 3%;
+			font-weight: 300;
+			font-size: 14px;
+		}
+
+			.listagem button:hover{
+				background-color: #fff;
+				color: #4f1111;
+			}
+
+			.listagem button:focus{
+				box-shadow: 0 0 0 0;
+				border: 0 none;
+				outline: 0;
+			}
+
 
 }
