@@ -20,7 +20,222 @@ body{
 	background-color: #f9f5f2;
 	border-top: 2px solid #4f1111;
 }
+/* Content */
 
+	.bg-title-page{
+		height: 185px;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: 0px -100px;
+	}
+		.title-page{
+			height: 185px;
+			display: flex;
+			align-items: center;
+		}
+
+			.title-page h1{
+				font-family: 'optimaregular';
+				font-size: 38px;
+				color: #fff;
+			}
+
+	.content-pagei{
+		padding-top: 60px;
+	}
+	
+
+	.menu-inst>ul>li:first-child{
+		padding-top: 0px !important;
+	}
+
+		.menu-inst>ul>li{
+			padding: 16px 0px;
+			border-bottom: 1px dashed #4f1111;
+			transition: 0.5s all;
+		}
+
+			.menu-inst>ul>li>a{
+				font-family: 'optimaregular';
+				text-decoration: none;
+				color: #4f1c18;
+				font-size: 18px;
+				transition: 0.5s all;
+			}
+
+			.menu-inst>ul>li>a i{
+				display: none;
+				color: #786a46;
+				transition: 0.5s all;
+			}
+
+			.menu-inst>ul>li>a:hover i, .active-menu-isnt i{
+				display: inherit !important;
+				transition: 0.5s all;
+			}	
+	
+	.composicao dd{
+		font-family: 'optimaregular';
+		font-size: 18px;
+		color: #4f1c18;
+	}
+
+	.composicao dt{
+		font-family: 'optimabold2';
+		font-size: 28px;
+		color: #4f1c18;
+	}
+	
+	.person{
+		margin-top: 75px;
+	}
+
+		.person .thumbnail{
+			background-color: transparent;
+			border: none;
+		}
+				.thumb-image{
+					width: 230px;
+					height: 230px;
+					background-repeat: no-repeat;
+					background-position: center;
+					background-size: cover;
+					border-radius: 50%;
+					display: block;
+					margin: 0px auto;
+					border: 2px solid #766643;
+				}
+
+
+		.thumbnail .caption h3,
+		.thumbnail .caption h4 , 
+		.thumbnail .caption p{
+			color: #4f1c18;
+		}
+
+			.thumbnail .caption h3{
+				font-family: 'optimabold2';
+				font-size: 18px;
+				text-align: center;
+			}
+
+			.thumbnail .caption h4{
+				font-family: 'optimabold2';
+				font-size: 18px;
+				text-align: center;
+			}
+
+			.thumbnail .caption p{
+				font-family: 'Open Sans', sans-serif;
+				font-size: 16px;
+				text-align: justify;
+				margin-top: 27px;
+			}
+	.pesquisa-pdf{
+		margin-top: 40px;
+		border: 1px solid;
+		padding-right: 30px;
+		padding-left: 30px;
+		padding-top: 30px;
+		padding-bottom: 29px;
+	}
+		.pesquisa-pdf label{
+			font-family: 'optimaregular';
+			font-size: 18px;
+			color: #4f1c18;
+		}
+			.pesquisa-pdf input[type="text"]{
+				margin-left: 15px;
+				border-radius: 0px;
+				width: 74%;
+				border: none;
+			}
+
+			.form-group i{
+				font-size: 16px;
+				cursor: pointer;
+				position: absolute;
+				right: 12%;
+				top:27%;
+				color: #4f1c18;
+			}
+
+			.buttons-pesquisa{
+				text-align: center;
+				margin-top: 25px;
+			}
+
+			.buttons-pesquisa input{
+				padding: 1% 3%;
+				background-color: #4f1c18;
+				border: none;
+				color: #fff;
+				display: inline-block;
+				margin: 0px auto;
+			}
+
+	.listagem-pdf{
+		margin-top: 90px;
+	}
+		.listagem-pdf .row{
+			border-bottom: 1px dashed #4f1111;
+			margin-bottom: 35px;
+		}
+
+		.listagem-pdf i{
+			font-size: 55px;
+			color: #4f1c18;
+		}
+
+		.listagem-pdf dd{
+			font-family: 'Open Sans', sans-serif;
+			font-size: 12px;
+		}
+
+		.listagem-pdf dt{
+			font-family: 'Open Sans', sans-serif;
+			font-size: 18px;
+			margin-top: 15px;
+			margin-bottom: 5px;
+		}
+
+
+	.paginacao{
+		text-align: center;
+	}
+		.pagination li a{
+			font-family: 'optimaregular';
+			color: #4f1c18;
+			background-color: transparent;
+			border: none;
+			font-size: 18px;
+		}
+
+		.pagination .active>a, .pagination .active>a:active{
+			background-color: transparent !important;
+			color: #4f1c18;
+			font-family: 'optimabold2';
+
+		}
+
+			.primeiro a{
+				position: absolute !important;
+				left: 0px;
+		}
+
+			.ultimo a{
+				position: absolute !important;
+				right: 0px;
+			}
+
+		.arrow i{
+			font-size: 20px !important;
+		}
+
+		.content-pagerev{
+			margin-top: 30px;
+		}
 /* Extra small devices (portrait phones, less than 576px) */
 
 

@@ -10,7 +10,6 @@
 			<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
 			<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 			<link rel="stylesheet" href="css/style.css">
-			<link rel="stylesheet" href="css/interna.css">
 		<!-- Script -->
 			<script src="bower_components/jquery/dist/jquery.min.js"></script>
 			<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
